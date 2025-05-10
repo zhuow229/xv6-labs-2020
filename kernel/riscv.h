@@ -1,4 +1,6 @@
 // which hart (core) is this?
+#include "types.h"
+
 static inline uint64
 r_mhartid()
 {
